@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GLSL">
+      <UniqueIdentifier>{9d467bfa-a0d3-4cce-a019-0af89e984d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\LIGHT">
+      <UniqueIdentifier>{ae329b52-7359-40da-8cd9-dfaa39e86740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\LIGHT">
+      <UniqueIdentifier>{f34bc5f2-c046-4d88-b0f2-fa97a565699e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Materials">
+      <UniqueIdentifier>{38565b48-0aa1-4100-8c8f-19bd49fb1752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Material">
+      <UniqueIdentifier>{17e9887f-5a4d-41d5-aa6c-93728ead6a57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glLog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glModule.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameRateCounter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glShader.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glRenderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="glModel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewControl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ILight.cpp">
+      <Filter>소스 파일\LIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일\LIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>소스 파일\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="MERL.cpp">
+      <Filter>소스 파일\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="CookTorrance.cpp">
+      <Filter>소스 파일\Materials</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="glLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="glModule.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameRateCounter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="glShader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="glRenderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="glModel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewControl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ILight.h">
+      <Filter>헤더 파일\LIGHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>헤더 파일\LIGHT</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>헤더 파일\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="MERL.h">
+      <Filter>헤더 파일\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="CookTorrance.h">
+      <Filter>헤더 파일\Material</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleFragmentShader.frag">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="SimpleVertexShader.vert">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="DiffuseFragmentShader.frag">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="DiffuseVertexShader.vert">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="PhongVertexShader.vert">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="PhongFragmentShader.frag">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="CookTorranceShader.frag">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="CookTorranceShader.vert">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="MultipleLightShader.vert">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+    <None Include="MultipleLightShader.frag">
+      <Filter>소스 파일\GLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
